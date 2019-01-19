@@ -2,7 +2,7 @@
     "name": "test number one!",
     "version": "1.0",
     "description": "Build an Extension!",
-    "permissions": ["declarativeContent", "storage"],
+    "permissions": ["activeTab", "declarativeContent", "storage"],
     "background": {
       "scripts": ["background.js"],
       "persistent": false
